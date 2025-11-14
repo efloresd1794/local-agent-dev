@@ -1,0 +1,14 @@
+======================================================================
+AGENT COMPARISON REPORT
+======================================================================
+
+Date: 2025-11-14 16:36:21
+Model: llama3.1:8b
+Scenarios tested: 3
+
+AVERAGE METRICS:
+----------------------------------------------------------------------
+ReAct  - Time: 45.28s, LLM Calls: 9.0, Tokens: 8,644
+CoT    - Time: 20.81s, LLM Calls: 1.0, Tokens: 823
+
+WINNER: Chain of Thought

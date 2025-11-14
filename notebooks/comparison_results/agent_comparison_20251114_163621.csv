@@ -1,0 +1,7 @@
+agent_type,scenario,total_time,planning_time,execution_time,llm_calls,total_tokens,input_tokens,output_tokens,tool_calls,successful_tools,failed_tools,success_rate,task_completed,final_result,estimated_cost
+ReAct,Simple - Create Single File,49.261561155319214,0.0,0.0,9,8437,7694,743,8,3,5,0.375,False,"A new directory 'simple_test' has been created, and a main.py file has been generated inside it using the fastapi_main template with project_name='SimpleAPI' and description='Test'. The main.py file is now saved in the '/sandbox/simple_test' directory.",0.0
+CoT,Simple - Create Single File,15.87361216545105,0.0,0.0,1,719,461,258,4,2,2,0.5,True,Completed 2/4 steps,0.0
+ReAct,Medium - FastAPI Project,51.22629475593567,0.0,0.0,10,9765,8988,777,9,8,1,0.8888888888888888,True,"The FastAPI project named 'medium_test' has been created with main.py, requirements.txt, and .gitignore files. The directory contents have been listed successfully.",0.0
+CoT,Medium - FastAPI Project,22.14141321182251,0.0,0.0,1,852,478,374,7,7,0,1.0,True,Completed 7/7 steps,0.0
+ReAct,Complex - Full Project,35.35404682159424,0.0,0.0,8,7731,7162,569,7,6,1,0.8571428571428571,True,"The FastAPI project 'complex_test' has been created successfully with the main.py, requirements.txt, .gitignore, and Dockerfile files. The directory listing shows that all files are present in the 'complex_test' directory.",0.0
+CoT,Complex - Full Project,24.423914194107056,0.0,0.0,1,899,492,407,9,4,5,0.4444444444444444,True,Completed 4/9 steps,0.0

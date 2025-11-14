@@ -1,0 +1,21 @@
+# Core dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+rich==13.7.0              # Beautiful terminal output
+
+# LLM Integration (choose based on your preference)
+ollama==0.1.6             # For local Llama/Mistral
+# openai==1.6.0           # Alternative: OpenAI API
+# anthropic==0.8.0        # Alternative: Claude API
+
+# Utilities
+httpx==0.25.2
+tenacity==8.2.3           # Retry logic
+jsonschema==4.20.0        # Tool schema validation
+
+# Development/Testing
+jupyter==1.0.0
+ipykernel==6.27.1
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.0
